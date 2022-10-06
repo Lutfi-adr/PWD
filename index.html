@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
+	<title>Tugas PWD P6</title>
+</head>
+<body>
+	<table class="wrapper">
+		<tr>  
+			<th colspan="2"><h1>Form Biodata</h1></th>
+			
+		</tr>
+		<tr>
+			<form>
+					<td><label for="nama">Nama lengkap</label></td>
+					<td>: <input type="text" id="nama" name="nama"></td>
+		</tr>
+		<tr>
+					<td><label for="ttl">Tempat, tanggal lahir/label></td>
+					<td>: <input type="text" id="ttl" name="ttl" size="10">,
+					<input type="date" name="ttl" id="ttl"></td>
+		</tr>
+		<tr>
+					<td><label for="alamat">Alamat</label></td>
+					<td>: <textarea id="alamat" name="alamat" cols="45" rows="5" wrap="soft"></textarea></td>
+		</tr>
+		<tr>
+					<td><label for="nomor">Nomor telp. / HP</label></td>
+					<td>: <input type="number" id="nomor" name="nomor">
+					<small>*mohon masukkan angka</small></td>
+		</tr>
+		<tr>
+					<td><label for="jnskelamin">Jenis kelamin</label></td>
+					<td>: <input type="radio" id="jnskelamin" name="jnskelamin" value="Laki-laki">Laki-laki
+					<input type="radio" id="jnskelamin" name="jnskelamin" value="Perempuan">Perempuan</td>
+		</tr>
+		<tr>
+					<td><label for="agama">Agama</label></td>
+					<td>: <input list="agama" value="Pilih Agama">
+						<datalist id="agama">
+							<option value="Islam">
+							<option value="Kristen">
+							<option value="Budha">
+							<option value="Hindu">
+							<option value="Kong hucu">
+						</datalist></td>
+		</tr>
+		<tr>
+					<td><label for="hobi">Hobi : </label></td>
+					<td>: <input type="checkbox" name="hobi" id="hobi" value="baca buku">Baca Buku
+					<input type="checkbox" name="hobi" id="hobi" value="olahraga">Olahraga
+					<input type="checkbox" name="hobi" id="hobi" value="main game">Main Game
+					<input type="checkbox" name="hobi" id="hobi" value="koding">Koding
+					<br>
+					<small>*bisa lebih dari satu</small></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<footer> 
+					<input type="submit" value="Submit">
+					<input type="reset" value="Clear!">
+				</footer>
+			</td>
+			</form>
+		</tr>
+	</table>
+</body>
+</html>
